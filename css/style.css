@@ -15,13 +15,16 @@ header{
     margin-bottom: 10px;
 }
 header h1{
-    flex-basis: 80%;
+    flex-basis: 50%;
     font-size: 48px;
-    text-align: center;
+    /* text-align: center; */
     align-self: center;
 }
+header .logo{
+    flex-basis: 50%;
+}
 header img{
-    height: 110px;
+    width:15vw;
 }
 menu{
     
@@ -110,9 +113,13 @@ footer{
         flex-wrap: nowrap;
        
     }
+    header h1{
+        font-size: large;
+    }
     li{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        border-radius: 0%;
+        /* padding-top: 2px; */
+        /* padding-bottom: 2px; */
         width: 100%;
       
     }
@@ -120,10 +127,13 @@ footer{
     li:hover{
         background-color: red;
     }
-    a{
+    a{  font-size: medium;
         align-self: center;
     }
-    .left{
+    .main-section{
         flex-direction: column;
+    }
+    .left{
+        margin-bottom: 10px;
     }
 }
